@@ -1,0 +1,14 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{user.firstname}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  Welcome back {{user.username}}, your password: {{user.password}}
+
+  <button ion-button (click)="navToCharityList()">Charities</button>
+</ion-content>

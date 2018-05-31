@@ -1,0 +1,27 @@
+<ion-header>
+    <ion-navbar>
+          <ion-title>Payment Information</ion-title>
+    </ion-navbar>
+ </ion-header>
+
+ <ion-content list>
+        <ion-input placeholder="Card Number"></ion-input>
+        <ion-input placeholder="Expiration Date"></ion-input>
+        <ion-input placeholder="Security Code"></ion-input>
+        <ion-input placeholder="Name On Card"></ion-input>
+
+        <ion-list>
+                <ion-item>
+                  <ion-label color = "secondary">How often would you like to donate?</ion-label>
+                  <ion-select [(ngModel)]="gaming">
+                    <ion-option value="Monthly">Monthly</ion-option>
+                    <ion-option value="Yearly">Yearly</ion-option>
+                    <ion-option value="One Time">One Time</ion-option>
+                    
+                  </ion-select>
+                </ion-item>
+              </ion-list>
+              
+              <button ion-button (click)="navToPaymentHistory()">Confirm</button>
+
+</ion-content>
