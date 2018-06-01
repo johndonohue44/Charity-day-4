@@ -20,9 +20,9 @@ export class PaymentPage {
     console.log("ionViewDidLoad LoginPage");
   }
 
-  navigateToPaymenth() {
-    this.navCtrl.push(PaymentHPage);
-    }
+  navigateToPaymentH() {
+      this.navCtrl.push(PaymentHPage);
+  }
 
   navigateToRegister() {
     this.navCtrl.push(RegisterPage);
