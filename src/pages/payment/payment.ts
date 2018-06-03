@@ -4,7 +4,6 @@ import { ProfilePage } from "../profile/profile";
 import { RegisterPage } from "../register/register";
 import { PaymentHPage } from "../paymentH/paymentH";
 
-
 @Component({
   selector: "page-payment",
   templateUrl: "payment.html"
